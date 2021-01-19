@@ -1,11 +1,19 @@
 body{
     font-family: 'Coda Caption', sans-serif;
+    margin:0%;
 }
 h1{
-    font-size: 50px;
+    font-size: 40px;
 }
 .name-highlight{
     color: coral;
+}
+h2{
+    font-size: 30px;
+}
+p{
+    color: dimgray;
+    font-size: 20px;
 }
 
 .half-width{
@@ -16,4 +24,26 @@ h1{
 }
 .half-width img{
     width: 100%;
+}
+.top-banner{
+    background-image: url("imeges/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    padding-bottom: 40px;
+}
+.link-button{
+   text-decoration: none;
+   color: white;
+   padding: 5px 10px;
+   border-radius: 5px;
+   font-weight: bold;
+   background-color: salmon;
+   margin: 1px red;
+}
+.dream-area{
+    background-image: url(imeges/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
